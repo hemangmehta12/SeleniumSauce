@@ -1,0 +1,14 @@
+Pre-requisite:
+1) Need Java 17 and Maven setup
+2) Need a IDE - eclipse or Intellij
+
+Project Setup:
+1) If using Intellij, go to pom.xml and open it with Intellij
+2) Right click on project - SeleniumSauce, open module settings and ensure appropriate SDK (here Java 17) is selected in Project module. In module settings, Java 17 language is selected.
+3) Go to Intellij IDEA and select Settings option
+4) Select Build, Execution, Deployment -> Build Tools option.
+5) Select Maven and ensure correct path is given for settings.xml
+
+Run:
+1) Run mvn clean install command
+2) Once project dependencies are installed, run mvn test.

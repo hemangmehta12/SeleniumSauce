@@ -13,7 +13,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import java.io.File;
 
-public class LoginTestCase {
+public class VerifyLoginTestCase {
     private WebDriver driver;
 
    @BeforeEach
